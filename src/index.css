@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background-color: #111827;
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#form .container {
+  padding: 1rem 0;
+  color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#form .container h2 {
+  font-size: 18px;
+}
+
+#form .container button {
+  background-color: #0ea5e9;
+  color: #e2e8f0;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+#form .container button:hover {
+  background-color: #0284c7;
+}
+
+#form .form-control {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+#form .form-control select,
+input {
+  width: 100%;
+  padding: 0.5rem 0.8rem;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  background-color: #1e293b;
+  color: white;
+}
+
+#history .container {
+  color: #e2e8f0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+#history .history-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+#history .history-list-item {
+  background-color: #1e293b;
+  padding: 0.5rem;
+  color: #e2e8f0;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+#history .history-list-item .close-icon {
+  color: #e2e8f0;
+  background-color: #ff4040;
+  border-radius: 100%;
+}
+
+#results {
+  color: #e2e8f0;
+  margin-bottom: 2rem;
+}
+
+#results .results-details {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+#results .package-information {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+#results .package-information-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#results h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0284c7;
+}
+
+#results .package-trip-information {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#results .trip-information-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+#results .trip-list-item {
+  background-color: #334155;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 5px;
+}
+
+@media screen and (max-width: 640px) {
+  .content {
+    width: 90%;
+  }
+}

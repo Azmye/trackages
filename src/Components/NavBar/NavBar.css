@@ -1,0 +1,44 @@
+header {
+  background-color: #1f2937;
+  color: white;
+}
+
+header .container {
+  padding: 1.25rem;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container .nav-links {
+  display: flex;
+  gap: 5px;
+}
+
+header .container .nav-links .nav-link-item a {
+  color: #fff;
+}
+
+header .container .nav-links .nav-link-item a:hover {
+  color: #0284c7;
+}
+
+header .container h2 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 640px) {
+  header .container {
+    width: 100%;
+    padding: 1.25rem 0;
+  }
+  header .container h2 {
+    padding-left: 1.25rem;
+  }
+  header .container .nav-links {
+    padding-right: 1.25rem;
+  }
+}
