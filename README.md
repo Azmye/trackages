@@ -1,5 +1,5 @@
 # Trackages
-Sebuah website sederhana untuk melacak keberadaan paket kesayangan kamu.
+Sebuah website sederhana untuk melacak keberadaan paket kamu.
 * Link Live Website https://trackages.vercel.app/
 ## Dibuat dengan 
 * React Js
